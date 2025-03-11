@@ -965,27 +965,7 @@ body {
 		background-image: url('bulb.png');
 	}
 }
-    background-color: #ffebf0; /* পিংক ব্যাকগ্রাউন্ড */
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* পাশে স্ক্রল রিমুভ */
-}
-
-/* কন্টেইনার */
-.container {
-    min-height: 150vh;
-    padding-bottom: 50px;
-}
-
-/* Our Memory Lane টাইটেল */
-h1 {
-    font-size: 2.5em;
-    color: #ff0080;
-    font-weight: bold;
-}
-
+    
 /* "A journey..." টেক্সট বক্স */
 .journey-box {
     display: inline-block;
