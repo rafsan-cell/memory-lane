@@ -86,3 +86,43 @@ h1 {
 .gallery div:hover .caption {
     opacity: 1;
 }
+
+/* লাইট জ্বালানোর এনিমেশন */
+.light {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    animation: light-glow 1.5s infinite alternate;
+}
+
+@keyframes light-glow {
+    0% { box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); }
+    100% { box-shadow: 0px 0px 30px rgba(255, 255, 255, 1); }
+}
+
+/* কেক এবং উইশ মেসেজের স্টাইল */
+.cake img, .wish-message p {
+    display: block;
+    margin: 20px auto;
+}
+
+/* বাটনের স্টাইল */
+button {
+    background-color: #ff0080;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60073;
+}
